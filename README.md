@@ -124,13 +124,19 @@ make
 ```bash
 .
 ├── src/
+│   ├── checkOutOfBoundry.cpp
+│   ├── checkOutOfBoundry.h
 │   ├── ColorClass.cpp
 │   ├── ColorClass.h
 │   ├── ColorImageClass.cpp
 │   ├── ColorImageClass.h
+│   ├── constants.h
 │   ├── RowColumnClass.cpp
 │   ├── RowColumnClass.h
-│   ├── main.cpp
+│   ├── mainMenu.cpp
+│   ├── mainMenu.h
+│   ├── setColorMenu.cpp
+│   ├── setColorMenu.h
 │   └── Makefile
 ├── Inputs/
 │   ├── deer.ppm
