@@ -14,11 +14,11 @@ The next value is also an integer, and is simply the maximum value in the color 
 
 The only thing left is a description of each and every pixel in the image. The pixel in the upper left corner of the image comes first. The rest of the first row follows, and then the first pixel of the second row comes after that. This pattern continues until every pixel has been described (in other words, there should be rows*cols color values in the PPM file). As mentioned above, each pixel is described with three integers (red, green, blue), so a 4 row by 4 column color image requires 4*4*3=48 integers to describe the pixels.
 
-A very small image of a red square on a blue background would be stored in a PPM file as follows:
-P3<br />
-4 4<br />
-255<br />
-0 0 255   0 0 255   0 0 255   0 0 255 <br />  
+A very small image of a red square on a blue background would be stored in a PPM file as follows:<br />
+P3 <br />
+4 4 <br />
+255 <br />
+0 0 255   0 0 255   0 0 255   0 0 255 <br />
 0 0 255   255 0 0   255 0 0   0 0 255 <br />
 0 0 255   255 0 0   255 0 0   0 0 255 <br />
 0 0 255   0 0 255   0 0 255   0 0 255 <br />
