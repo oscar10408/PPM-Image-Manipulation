@@ -108,6 +108,15 @@ The program will guide the user through the necessary inputs for each action.
 
 **Important Note**: The program **must** follow the exact sequence of actions and user input prompts as specified in the sample output. Do not reorder menu options, add extra prompts, or change the required user inputs. The program must behave consistently with the expected flow and format.
 
+---
+
+## Example Usage
+
+### Compilation
+```bash
+make
+./proj3.exe
+
 
 ## Project Structure
 
