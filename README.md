@@ -122,8 +122,14 @@ The program will guide the user through the necessary inputs for each action.
 │   ├── RowColumnClass.h
 │   ├── main.cpp
 │   └── Makefile
-├── input/
-│   └── pattern.txt
-├── output/
-│   └── result.ppm
+├── Inputs/
+│   ├── deer.ppm
+│   ├── ohdeerPattern.txt
+│   └── topHat.ppm
+├── Outputs/
+│   ├── new1.ppm
+│   ├── new2.ppm
+│   ├── new3.ppm
+│   ├── new4.ppm
+│   └── new5.ppm
 └── README.md
